@@ -1,0 +1,23 @@
+---
+
+### `.gitignore`
+```text
+# Archivos y carpetas generados por Python
+__pycache__/
+*.py[cod]
+*.pyc
+*$py.class
+.env
+
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Configuración de editores
+.vscode/
+.idea/
